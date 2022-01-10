@@ -1,0 +1,6 @@
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+.user-component__column-notification {
+  margin-top: 8px;
+}

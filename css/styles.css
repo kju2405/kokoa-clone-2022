@@ -6,9 +6,11 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/bedge.css";
 /* Screen */
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/chats.css";
 
 body {
   font-family: "Open Sans", sans-serif;
