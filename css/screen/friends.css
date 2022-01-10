@@ -26,3 +26,9 @@
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
 }
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px 5px;
+}
