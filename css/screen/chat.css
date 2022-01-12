@@ -81,3 +81,56 @@
   margin-left: 7px;
   z-index: 3;
 }
+.reply {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  padding: 5px 25px;
+  box-sizing: border-box;
+}
+
+.reply .reply__column:first-child {
+  width: 10%;
+  opacity: 0.5;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+}
+.reply .reply__column {
+  position: relative;
+}
+
+.reply__column input {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  border: var(--main-border);
+  padding: 5px 15px;
+}
+.reply .reply__column:last-child > i,
+.reply .reply__column:last-child button {
+  position: absolute;
+}
+.reply .reply__column:last-child > i {
+  right: 40px;
+  top: 5px;
+  font-size: 25px;
+  opacity: 0.5;
+}
+.reply__column button {
+  background-color: var(--yellow);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 2px;
+  right: -3px;
+  font-size: 20px;
+  border: none;
+}
+.reply__column:first-child > i {
+  font-size: 30px;
+}
