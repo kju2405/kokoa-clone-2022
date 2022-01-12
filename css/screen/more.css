@@ -1,0 +1,49 @@
+.user-component__noti {
+  color: red;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  font-size: 10px;
+  position: absolute;
+  right: -20px;
+  top: 9px;
+}
+.user-component__sub-noti {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.icon-row {
+  margin-top: 35px;
+  justify-content: space-between;
+}
+.icon-row-first,
+.icon-row-third {
+  border-bottom: none;
+}
+.opacity0 {
+  opacity: 0;
+}
+.more__icon-row i {
+  font-size: 30px;
+}
+.more__icon-row span {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.icon-row-second {
+  margin-top: 5px;
+}
+.more-suggestions__title {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.icon-row__icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
