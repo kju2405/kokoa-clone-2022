@@ -12,6 +12,7 @@
 }
 .alt-header .alt-header__column:nth-child(2) {
   width: 40%;
+  text-align: center;
 }
 .alt-header .alt-header__column:last-child {
   width: 30%;
